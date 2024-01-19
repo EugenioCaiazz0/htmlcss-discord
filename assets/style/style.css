@@ -4,25 +4,28 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+}
+
 header{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     height: 80px;
-    background-color: #acd8e6;
+    background-color:#3161e0;
 }
 
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px dotted black;
 }
 
  header .container{
     height: 50px;
-    background-color: #daa520;
 }
 
 .logo{
@@ -43,26 +46,33 @@ nav ul{
     justify-content: space-around;
     flex-wrap: wrap;
     list-style: none;
+    color: white;
   }
 
   nav ul li a{
-    text-decoration: none;
+    text-decoration-line: none;
     text-transform: uppercase;
     display: inline-block;
   }
 
-.login-button{
+button{
     display: flex;
-    width: 250px;
-    height: 100%;
-    border: 2px dotted black;
+    display: inline-block;
+    border-radius: 10%;
+    border: 0;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
+}
+
+header button{
+    height: 100%; 
 }
 
 .container.box-jumbo{
     height: 520px;
-    background-color: #0f008b;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    color: white;
 }
 
 .container.box-maxi{
@@ -83,12 +93,6 @@ nav ul{
     display: flex;
 }
 
-.advertising-content.maxi{
-    height: 940px;
-    background-color: #228b23;
-    border: 1px dotted black;
-}
-
 .advertising-content.reverse{
     flex-direction: row-reverse;
 }
@@ -96,21 +100,55 @@ nav ul{
 .advertising-img{
     width: 750px;
     height: 100%;
-    background-color:#1e8efc ;
-    border: 1px dotted black;
+    background-size: cover;
+}
+
+.advertising-img.ad1{
+    background-image:url(../img/item1.svg);
+}
+
+.advertising-img.ad2{
+    background-image: url(../img/item2.svg);
+}
+
+.advertising-img.ad3{
+    background-image: url(../img/item3.svg);
+}
+
+.advertising-img.ad4{
+    background-image: url(../img/item4-big.svg);
+    width: 100%;
+    height: 100%;
+}
+
+.advertising-content.maxi{
+    height: 940px;
+    background-size: auto;
+    flex-direction: column;
+    align-items: center;
 }
 
 .advertising-textbox{
     width: 500px;
     height: 100%;
-    background-color:#fec0cb ;
-    border: 1px dotted black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.advertising-textbox.maxi{
+    width: 85%;
+    height: 200px;
+    justify-content: space-around;
 }
 
-.jumbotron{
+.jumbotron.advertising-textbox{
     width: 950px;
     height: 410px;
-    background-color:#ec81ec;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 footer .container{
