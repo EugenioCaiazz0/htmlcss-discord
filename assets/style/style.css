@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    background-color: #acd8e6;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dotted black;
+}
+
+ header .container{
+    height: 50px;
+    background-color: #daa520;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    border: 1px dotted black;
+    height: 100%;
+}
+
+nav{
+    width: 750px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+
+  nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+
+.login-button{
+    display: flex;
+    width: 250px;
+    height: 100%;
+    border: 2px dotted black;
+    align-items: center;
+    justify-content: center;
+}
+
+.container.box-jumbo{
+    height: 520px;
+    background-color: #0f008b;
+}
+
+.container.box-maxi{
+    height: 1040px;
+}
+
+.container.box-content{
+    height: 625px;
+}
+
+.container.gray{
+    background-color: #d3d3d3;
+}
+
+.advertising-content{
+    width: 1250px;
+    height: 520px;
+    display: flex;
+}
+
+.advertising-content.maxi{
+    height: 940px;
+    background-color: #228b23;
+    border: 1px dotted black;
+}
+
+.advertising-content.reverse{
+    flex-direction: row-reverse;
+}
+
+.advertising-img{
+    width: 750px;
+    height: 100%;
+    background-color:#1e8efc ;
+    border: 1px dotted black;
+}
+
+.advertising-textbox{
+    width: 500px;
+    height: 100%;
+    background-color:#fec0cb ;
+    border: 1px dotted black;
+}
+
+.jumbotron{
+    width: 950px;
+    height: 410px;
+    background-color:#ec81ec;
+}
+
+footer .container{
+    background-color: #22272a;
+    height: 780px;
+}
+
+.footer-content{
+    width: 1250px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-links{
+    width: 380px;
+    height: 600px;
+    background-color: #f08080;
+    border: 1px dotted black;
+}
+
+.footer-buttons-column{
+    width: 220px;
+    height: 600px;
+    background-color: #21afa7;
+     border: 1px dotted black;
+}
+
+.footer-content.page-end{
+    justify-content: space-between;
+    height:80px;
+    width: 1250px;
+    background-color:#7effd5 ;
+}
+
+.container.mini{
+    height: 120px;
+}
+
+.footer-element{
+    height: 40px;
+    width: 70px;
+    background-color:#ffb6c2;
+}
