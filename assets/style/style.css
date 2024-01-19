@@ -18,6 +18,14 @@ header{
     background-color:#3161e0;
 }
 
+h1{
+    padding-top: 15px;
+}
+
+h3{
+    padding-bottom: 15px;
+}
+
 .container{
     display: flex;
     justify-content: center;
@@ -26,13 +34,14 @@ header{
 
  header .container{
     height: 50px;
+    width: 1250px;
 }
 
 .logo{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 250px;
+    width: 200px;
     height: 100%;
     color: white;
 }
@@ -53,22 +62,28 @@ nav ul{
     text-decoration-line: none;
     text-transform: uppercase;
     display: inline-block;
+    font-size: medium;
+    color: white;
   }
 
 button{
     display: inline-block;
-    border-radius: 8%;
-    border: 0;
+    border-radius: 10px;
+    border-style: none;
     align-items: center;
     justify-content:center;
+    padding: 10px;
 }
 
 header button{
-    height: 100%; 
+    width: 100px;
+    justify-self: flex-end
 }
 
-button .download-button{
+button.purple-button{
     background-color: #8ea0e1;
+    color: white;
+
 }
 
 .container.box-jumbo{
@@ -137,7 +152,10 @@ button .download-button{
     height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+}
+
+.advertising-textbox.jumbotron-textbox{
+    width: 750px;
 }
 
 .advertising-textbox h1{
@@ -179,8 +197,9 @@ footer .container{
 }
 
 .footer-links p{
-color: white;
-font-size: larger;
+font-size: large;
+padding-bottom: 10px;
+padding-left: 10px;
 }
 
 .footer-links p.purple{
@@ -206,7 +225,6 @@ font-size: larger;
     justify-content: space-between;
     height:80px;
     width: 1250px;
-    background-color:#7effd5 ;
 }
 
 .container.mini{
@@ -216,5 +234,4 @@ font-size: larger;
 .footer-element{
     height: 40px;
     width: 70px;
-    background-color:#ffb6c2;
 }
