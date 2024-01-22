@@ -59,6 +59,10 @@ nav ul{
     color: white;
   }
 
+  ul li{
+    padding-right: 5px;
+  }
+
   nav ul li a{
     text-decoration-line: none;
     text-transform: uppercase;
@@ -248,3 +252,10 @@ padding-left: 10px;
     height: 40px;
     width: 70px;
 }
+
+.footer-links.large-footer ul{
+    display: flex;
+    flex-direction: row;
+}
+
+
