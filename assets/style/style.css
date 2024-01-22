@@ -35,6 +35,7 @@ h3{
  header .container{
     height: 50px;
     width: 1250px;
+    justify-content: space-between;
 }
 
 .logo{
@@ -84,6 +85,18 @@ button.purple-button{
     background-color: #8ea0e1;
     color: white;
 
+}
+
+button.dark-button{
+  background-color: #22272a;
+  color: white;
+}
+
+.jumbotron{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .container.box-jumbo{
